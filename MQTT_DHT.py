@@ -1,3 +1,6 @@
+#This client waits for request from another mqtt client. When a request is received, this client sends a response with DHT data to the mqtt broker.
+#The code can be tested without DHT sensor, it then just sends fixed humidity & temperature values (22, 65).
+
 #!/usr/bin/python
 import sys
 import time
